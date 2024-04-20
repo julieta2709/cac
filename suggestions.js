@@ -1,0 +1,20 @@
+let suggestions = [
+    'Gastronomía Italiana',
+    'Gastronomía Francesa',
+    'Gastronomía Asiatica',
+    'Gastronomía Hindú',
+    'Gastronomía Argentina',
+    'Gastronomía Española',
+    'Gastronomía Mexicana',
+    'Gastronomía Griega',
+    'Receta',
+    'Tiramisu',
+    'Ratatouille',
+    'Sushi',
+    'Pollo al Curry',
+    'Panqueques con Dulce de Leche',
+    'Tortilla de Papas',
+    'Tacos',
+    'Musaka',
+
+];

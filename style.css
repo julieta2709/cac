@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #414b57;
+    padding: 0 20px;
+}
+
+.tituloSection {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 100px auto;
+    text-align: center;
+    
+}
+
+.buscador-recetas {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.search-input-box {
+    width: 100%;
+    background-color: #2f3649;
+    border-radius: 5px;
+    position: relative;
+    color: azure;
+    box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+
+#input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 55px;
+    padding: 0 30px 0 20px;
+    font-size: 18px;
+}
+
+
+.icon {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #0d141f;
+}
+
+.conteiner-suggestions {
+    max-height: 280px;
+    opacity: 0;
+    pointer-events: none;
+    padding: 0;
+    overflow-y: auto;
+}
+
+
+.search-input-box.active .conteiner-suggestions {
+    opacity: 1;
+    pointer-events: auto;
+    padding: 10px 8px;
+
+}
+
+.search-input-box.active .conteiner-suggestions li {
+    display: block;
+}
+
+.conteiner-suggestions li {
+    list-style: none;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: none;
+}
+
+.conteiner-suggestions li:hover {
+    background: gray;
+}
