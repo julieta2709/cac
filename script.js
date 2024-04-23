@@ -29,7 +29,7 @@ inputSearch.onkeyup = e => {
     }
 
 };
-
+// selecionar sugerencias
 function select(element) {
     
     let selectUserData = element.textContent;
@@ -37,7 +37,7 @@ function select(element) {
     searchContainer.classList.remove('active');
 }
 
-
+//mostrarsugerencias
 const showSuggestions = list => {
 	let listData;
 
