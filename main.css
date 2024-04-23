@@ -2,14 +2,10 @@
     background-color: #9f3647;
 }
 
-
-
-
-
-
 .colorDeFondo {
     background-color: aqua;
 }
+
 .acomodarItem {
     display: flex;
     justify-content: space-between;
