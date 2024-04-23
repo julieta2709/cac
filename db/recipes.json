@@ -1,0 +1,281 @@
+{
+  "recetas": [
+    {
+      "id": 1,
+      "nombre": "Tarta de manzana",
+      "categoría": "dulce",
+      "dificultad": "fácil",
+      "foto": "http://127.0.0.1:5500/img/manzana.jpg",
+      "descripción": "Esta tarta de manzana fina y crujiente consiste en una elaboración exquisita. Además, es muy sencilla y rápida de hacer",
+      "ingredientes": [
+        "6 manzanas",
+        "200g de harina",
+        "150g de azúcar",
+        "100g de manteca",
+        "2 huevos",
+        "1 cucharadita de polvo de hornear",
+        "Canela en polvo al gusto"
+      ],
+      "instrucciones": [
+        "Precalentar el horno a 180°C.",
+        "Pelar y cortar las manzanas en rodajas finas.",
+        "En un bol, batir los huevos con el azúcar.",
+        "Agregar la harina, la levadura en polvo y la manteca derretida al bol y mezclar bien.",
+        "Engrasar un molde para tarta y verter la mezcla.",
+        "Colocar las rodajas de manzana sobre la masa en el molde.",
+        "Espolvorear canela en polvo sobre las manzanas.",
+        "Hornear durante aproximadamente 40-45 minutos, o hasta que esté dorada y cocida.",
+        "Dejar enfriar antes de servir."
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Galletas de chocolate",
+      "categoría": "dulce",
+      "dificultad": "medio",
+      "foto": "http://127.0.0.1:5500/img/galletasChocolate.jpg",
+      "descripción": "Galletas de chocolate, deliciosas, tiernas y jugosas. Además, son unas galletas rápidas y sencillas de preparar, ¡verás que en media hora las tienes listas! Estas galletas gustarán tanto a niños como a mayores",
+      "ingredientes": [
+        "200g de chocolate negro",
+        "100g de manteca",
+        "150g de azúcar",
+        "2 huevos",
+        "200g de harina",
+        "1 cucharadita de esencia de vainilla",
+        "1 cucharadita de bicarbonato de sodio",
+        "Una pizca de sal"
+      ],
+      "instrucciones": [
+        "Precalentar el horno a 180°C.",
+        "Derretir el chocolate junto con la manteca al baño maría o en el microondas.",
+        "En un bol, batir los huevos con el azúcar hasta que estén espumosos.",
+        "Agregar el chocolate derretido y la esencia de vainilla al bol y mezclar bien.",
+        "Incorporar la harina, el bicarbonato de sodio y la sal a la mezcla y seguir mezclando hasta obtener una masa homogénea.",
+        "Formar bolitas con la masa y colocarlas en una bandeja para hornear, previamente forrada con papel de horno.",
+        "Aplastar ligeramente cada bolita con un tenedor.",
+        "Hornear durante unos 10-12 minutos, o hasta que estén doradas.",
+        "Dejar enfriar antes de servir."
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Flan de vainilla",
+      "categoría": "dulce",
+      "dificultad": "fácil",
+      "foto": "http://127.0.0.1:5500/img/flan.jpg",
+      "descripción": "El flan es un postre típico de bodegón argentino. Queremos enseñarte la receta básica que no falla, para que puedas disfrutar de un flan perfecto.",
+      "ingredientes": [
+        "1 litro de leche",
+        "6 huevos",
+        "200g de azúcar",
+        "1 cucharadita de esencia de vainilla"
+      ],
+      "instrucciones": [
+        "Precalentar el horno a 180°C.",
+        "En una olla, calentar la leche junto con la esencia de vainilla hasta que esté caliente pero no hierva.",
+        "En un bol grande, batir los huevos con el azúcar hasta obtener una mezcla homogénea.",
+        "Agregar la leche caliente poco a poco a la mezcla de huevos y azúcar, removiendo constantemente.",
+        "Colar la mezcla a través de un colador fino para eliminar posibles grumos.",
+        "Verter la mezcla en un molde para flan caramelizado.",
+        "Hornear al baño maría durante aproximadamente 60-70 minutos, o hasta que esté cuajado.",
+        "Dejar enfriar y refrigerar durante al menos 4 horas antes de desmoldar y servir."
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Cupcakes de vainilla con frosting de chocolate",
+      "categoría": "dulce",
+      "dificultad": "medio",
+      "foto": "http://127.0.0.1:5500/img/cupcake.jpg",
+      "descripción": "Estos cupcakes súper versátiles y prácticos de preparar ya que se pueden combinar infinidad de ingredientes o pueden tener como sabor principal a casi cualquier ingrediente. Su preparación es muy sencilla y su cocción rápida.",
+      "ingredientes": [
+        "200g de harina",
+        "150g de azúcar",
+        "2 huevos",
+        "100g de manteca derretida",
+        "1 cucharadita de esencia de vainilla",
+        "1 cucharadita de levadura en polvo",
+        "100g de chocolate negro",
+        "100ml de nata líquida",
+        "50g de azúcar glas"
+      ],
+      "instrucciones": [
+        "Precalentar el horno a 180°C.",
+        "En un bol, batir los huevos con el azúcar hasta que estén espumosos.",
+        "Agregar la manteca derretida y la esencia de vainilla al bol y mezclar bien.",
+        "Incorporar la harina y la levadura tamizadas a la mezcla y seguir mezclando hasta obtener una masa homogénea.",
+        "Repartir la masa en moldes para cupcakes previamente colocados en una bandeja para hornear.",
+        "Hornear durante unos 15-20 minutos, o hasta que estén dorados y cocidos.",
+        "Dejar enfriar los cupcakes antes de decorar con el frosting.",
+        "Para hacer el frosting, derretir el chocolate junto con la nata en un cazo a fuego lento, removiendo constantemente.",
+        "Agregar el azúcar glas y mezclar bien hasta obtener una crema suave y brillante.",
+        "Dejar enfriar el frosting antes de decorar los cupcakes."
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Natillas caseras",
+      "categoría": "dulce",
+      "dificultad": "fácil",
+      "foto": "http://127.0.0.1:5500/img/natilla.jpg",
+      "descripción": "La natilla de vainilla es uno de los postres más emblemáticos en diversos países. Este postre, siempre ha sido muy simple y rápida su elaboración creando así un delicioso sabor para poder ser compartido en familia.",
+      "ingredientes": [
+        "1 litro de leche",
+        "6 yemas de huevo",
+        "150g de azúcar",
+        "1 rama de canela",
+        "Canela en polvo para espolvorear"
+      ],
+      "instrucciones": [
+        "En una cacerola, calentar la leche junto con la rama de canela hasta que esté caliente pero no hierva.",
+        "En un bol, batir las yemas de huevo con el azúcar hasta que estén espumosas y de color claro.",
+        "Retirar la rama de canela de la leche caliente.",
+        "Agregar un poco de leche caliente a las yemas batidas y mezclar bien para temperarlas.",
+        "Verter la mezcla de yemas en la cacerola con el resto de la leche y cocinar a fuego medio-bajo, removiendo constantemente, hasta que espese lo suficiente para cubrir la parte posterior de una cuchara.",
+        "Retirar del fuego y verter las natillas en recipientes individuales.",
+        "Dejar enfriar a temperatura ambiente y luego refrigerar durante al menos 2 horas.",
+        "Espolvorear con canela en polvo antes de servir."
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Pizza Margarita",
+      "categoria": "salada",
+      "dificultad": "fácil",
+      "foto": "http://127.0.0.1:5500/img/pizza.jpg",
+      "descripción": "La pizza es universal, la pizza Margarita sin duda es una tradición pero no por eso deja de ser menos que otras pizzas con más ingredientes.",
+      "ingredientes": [
+        "500g de masa de pizza",
+        "200g de tomate triturado",
+        "150g de mozzarella",
+        "Albahaca fresca al gusto",
+        "Aceite de oliva",
+        "Sal y pimienta al gusto"
+      ],
+      "instrucciones": [
+        "Precalentar el horno a 220°C.",
+        "Estirar la masa de pizza sobre una bandeja para hornear previamente enharinada.",
+        "Untar el tomate triturado sobre la masa, dejando un borde sin cubrir.",
+        "Cortar la mozzarella en rodajas finas y distribuirlas sobre el tomate.",
+        "Condimentar con sal y pimienta al gusto.",
+        "Hornear la pizza en el horno precalentado durante unos 15-20 minutos, o hasta que la masa esté dorada y crujiente.",
+        "Retirar del horno y agregar las hojas de albahaca fresca.",
+        "Rociar un poco de aceite de oliva sobre la pizza antes de servir."
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Ensalada César",
+      "categoria": "salada",
+      "dificultad": "fácil",
+      "foto": "http://127.0.0.1:5500/img/ensalada.jpg",
+      "descripción": "Te explicamos cómo hacer ensalada César con pollo de una forma saludable para que puedas disfrutar de este típico plato sin dejar de lado la nutrición.",
+      "ingredientes": [
+        "Lechuga romana",
+        "200g de pechuga de pollo",
+        "Pan tostado en cubos",
+        "50g de queso parmesano rallado",
+        "Aceite de oliva",
+        "1 diente de ajo",
+        "1 limón",
+        "Sal y pimienta al gusto"
+      ],
+      "instrucciones": [
+        "Lavar y cortar la lechuga romana en trozos pequeños.",
+        "Cortar la pechuga de pollo en tiras y sazonar con sal y pimienta al gusto.",
+        "Calentar un poco de aceite de oliva en una sartén y cocinar el pollo hasta que esté dorado y cocido.",
+        "Tostar los cubos de pan en una sartén con un poco de aceite de oliva y el diente de ajo picado.",
+        "Preparar la salsa César mezclando el jugo de limón con el queso parmesano rallado y un poco de aceite de oliva.",
+        "En un bol grande, combinar la lechuga, el pollo, los cubos de pan tostado y la salsa César.",
+        "Mezclar bien para asegurarse de que todos los ingredientes estén cubiertos con la salsa.",
+        "Servir la ensalada con un poco más de queso parmesano rallado por encima."
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Sopa de calabaza",
+      "categoria": "salada",
+      "dificultad": "fácil",
+      "foto": "http://127.0.0.1:5500/img/sopa.jpg",
+      "descripción": "En otoño podemos preparar una deliciosa sopa de calabaza casera de una manera muy sencilla y en poco tiempo. Además, es un plato bajo en calorías, nutritivo y saludable.",
+      "ingredientes": [
+        "1 calabaza grande",
+        "1 cebolla",
+        "2 zanahorias",
+        "1 patata",
+        "1 litro de caldo de verduras",
+        "Aceite de oliva",
+        "Sal y pimienta al gusto"
+      ],
+      "instrucciones": [
+        "Pelar y cortar la calabaza, la cebolla, las zanahorias y la patata en trozos.",
+        "Calentar un poco de aceite de oliva en una olla grande.",
+        "Agregar la cebolla picada y sofreír hasta que esté dorada.",
+        "Agregar la calabaza, las zanahorias y la patata a la olla y cocinar por unos minutos.",
+        "Verter el caldo de verduras en la olla y llevar a ebullición.",
+        "Reducir el fuego y cocinar a fuego lento durante unos 20-25 minutos, o hasta que las verduras estén tiernas.",
+        "Retirar la olla del fuego y dejar que la sopa se enfríe un poco.",
+        "Usar una licuadora de mano o una licuadora regular para triturar la sopa hasta que quede suave.",
+        "Volver a calentar la sopa si es necesario y sazonar con sal y pimienta al gusto antes de servir."
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Espaguetis a la bolognesa",
+      "categoria": "salada",
+      "dificultad": "medio",
+      "foto": "http://127.0.0.1:5500/img/espagueti.jpg",
+      "descripción": "es un plato de origen italiano. Con pocos ingredientes y en tan solo 15 minutos de cocción, podrás tener en tu mesa una preparación exquisita a la que pocos podrán resistirse.",
+      "ingredientes": [
+        "400g de espaguetis",
+        "500g de carne picada de ternera",
+        "1 cebolla",
+        "2 dientes de ajo",
+        "400g de tomate triturado",
+        "Aceite de oliva",
+        "Sal y pimienta al gusto",
+        "Orégano al gusto"
+      ],
+      "instrucciones": [
+        "Picar finamente la cebolla y los dientes de ajo.",
+        "Calentar un poco de aceite en una sartén grande a fuego medio.",
+        "Agregar la cebolla y el ajo picados y sofreír hasta que estén dorados.",
+        "Agregar la carne picada a la sartén y cocinar hasta que esté dorada.",
+        "Agregar el tomate triturado a la sartén y mezclar bien.",
+        "Condimentar con sal, pimienta y orégano al gusto.",
+        "Cocinar a fuego lento durante unos 20-30 minutos, removiendo de vez en cuando.",
+        "Cocinar los espaguetis en una olla grande con agua hirviendo y sal, según las instrucciones del paquete.",
+        "Escurrir los espaguetis cocidos y servir con la salsa boloñesa caliente por encima.",
+        "¡Disfrutar!"
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Tarta de espinacas y queso",
+      "categoria": "salada",
+      "dificultad": "medio",
+      "foto": "http://127.0.0.1:5500/img/quiche.jpg",
+      "descripción": "No hay nada como una buena tarta de espinacas que se puede dejar lista con antelación para solucionarnos la cena entre semana cuando llegamos cansados del trabajo o una comida fuera de casa, una reunión familiar o de amigos.",
+      "ingredientes": [
+        "1 masa para tarta",
+        "200g de espinacas frescas",
+        "150g de queso gruyere rallado",
+        "3 huevos",
+        "200ml de nata líquida",
+        "Sal y pimienta al gusto",
+        "Nuez moscada al gusto"
+      ],
+      "instrucciones": [
+        "Precalentar el horno a 180°C.",
+        "Forrar un molde para tarta con la masa y pinchar el fondo con un tenedor.",
+        "Colocar las espinacas frescas sobre la masa en el molde.",
+        "Espolvorear el queso gruyere rallado sobre las espinacas.",
+        "En un bol, batir los huevos con la nata líquida.",
+        "Sazonar la mezcla de huevo y nata con sal, pimienta y nuez moscada al gusto.",
+        "Verter la mezcla de huevo y nata sobre las espinacas y el queso en el molde.",
+        "Hornear la quiche en el horno precalentado durante aproximadamente 30-35 minutos, o hasta que esté dorada y cuajada.",
+        "Dejar enfriar un poco antes de servir."
+      ]
+    }
+  ]
+}
