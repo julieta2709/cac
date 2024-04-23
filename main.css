@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #ef3b3a;
+  --secondary: #f69139;
+  --tertiary: #fcd15a;
+  --fourth: #612c20;
+  --fifth: #fbede7;
+}
+body {
+  background-color: var(--fifth);
+}
+h1 {
+  font-family: "Galada";
+  color: var(--secondary);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+}
+h2 {
+  font-family: "Borel";
+  color: var(--secondary);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+}
+.container {
+  justify-content: center;
+}
+.tituloSection {
+  font-family: "Amatic SC";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  text-align: center;
+  color: var(--fourth);
+}
+.card {
+  width: 18rem;
+  height: 30rem;
+  position: relative;
+}
+.card .card-body {
+  position: relative;
+  height: 100%;
+}
+.card-title {
+  font-family: "Amatic SC";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+}
+.card-img-top {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  object-position: center;
+}
+.btn {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: white;
+  font-family: "Galada";
+}
+.card .btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bg-receta-header {
+    background-color: #9f3647;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.colorDeFondo {
+    background-color: aqua;
+}
+
+.acomodarItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-nav {
+    padding-top: 20px; 
+}
+
+.fondo-boton {
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.fondo-boton:hover {
+    color: yellow;
+}
+
+.fondo-boton:focus {
+    color: yellow;
+}
+
+
+.alinear-footer {
+    text-align: center;
+    padding: 5px;
+}
+
+.logo {
+    width: 70px;
+}
+
+.acomodar-logo {
+    display: flex;
+    gap: 20px;
+}
