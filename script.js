@@ -1,7 +1,7 @@
 const searchContainer = document.querySelector('.search-input-box');
 const inputSearch = searchContainer.querySelector('#input');
 const boxSuggestions = document.querySelector('.conteiner-suggestions');
-const searchLink = document.querySelector('a');
+//const searchLink = document.querySelector('a');
 
 inputSearch.onkeyup = e => {
     let userData = e.target.value;
@@ -35,7 +35,7 @@ function select(element) {
     
     let selectUserData = element.textContent;
     inputSearch.value = selectUserData;
-    searchLink.href = `index.html``=${inputSearch.value}`;
+    //searchLink.href = `=${inputSearch.value}`;
     searchContainer.classList.remove('active');
 }
 
