@@ -29,9 +29,7 @@ h2 {
   font-size: 30px;
   text-align: center;
 }
-.container {
-  justify-content: center;
-}
+
 .tituloSection {
   font-family: "Amatic SC";
   font-weight: 700;
@@ -39,6 +37,75 @@ h2 {
   font-size: 48px;
   text-align: center;
   color: var(--fourth);
+}
+/*Section Buscador*/
+.Buscador {
+  background-color: #414b57;
+  height: 12rem;
+}
+.Buscador .tituloSection {
+  color: var(--fifth);
+}
+.buscador-recetas {
+  max-width: 700px;
+  margin: 30px auto;
+}
+.search-input-box {
+  width: 100%;
+  background-color: #2f3649;
+  border-radius: 5px;
+  position: relative;
+  color: azure;
+  box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.12);
+}
+#input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 55px;
+  padding: 0 30px 0 20px;
+  font-size: 18px;
+}
+
+.icon {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 22px;
+  cursor: pointer;
+  color: #0d141f;
+}
+
+.conteiner-suggestions {
+  max-height: 280px;
+  opacity: 0;
+  pointer-events: none;
+  padding: 0;
+  overflow-y: auto;
+}
+.search-input-box.active .conteiner-suggestions {
+  opacity: 1;
+  pointer-events: auto;
+  padding: 10px 8px;
+}
+.search-input-box.active .conteiner-suggestions li {
+  display: block;
+}
+.conteiner-suggestions li {
+  list-style: none;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: none;
+}
+.conteiner-suggestions li:hover {
+  background: gray;
+}
+/*Section Recetas*/
+.container {
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 .card {
   width: 18rem;
@@ -75,50 +142,42 @@ h2 {
   transform: translateX(-50%);
 }
 .bg-receta-header {
-    background-color: #9f3647;
-    padding-left: 50px;
-    padding-right: 50px;
+  background-color: #9f3647;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-
 .colorDeFondo {
-    background-color: aqua;
+  background-color: aqua;
 }
-
 .acomodarItem {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
 .titulo-nav {
-    padding-top: 20px; 
+  padding-top: 20px;
 }
-
 .fondo-boton {
-    color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
 }
-
 .fondo-boton:hover {
-    color: yellow;
+  color: yellow;
 }
-
 .fondo-boton:focus {
-    color: yellow;
+  color: yellow;
 }
-
-
 .alinear-footer {
-    text-align: center;
-    padding: 5px;
+  text-align: center;
+  padding: 5px;
 }
 
 .logo {
-    width: 70px;
+  width: 70px;
 }
 
 .acomodar-logo {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
