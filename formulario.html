@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro | Recetas de cocina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            background: url(img/fondococina.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <span>Recetas</span>
+        </a>
+    </header>
+
+    <main>
+        <section>
+            <form action="" method="post" class="mx-auto mt-5 p-4 rounded bg-light" style="max-width: 400px;">
+                <h2 class="text-center mb-4">Registro</h2>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nombre" required id="nombre" name="nombre">
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Apellido" maxlength="8" minlength="2" required id="apellido" name="apellido"> 
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email" required id="email" name="email">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="Contraseña" required id="password" name="password" maxlength="8" pattern="^(?=.*[A-Z])(?=.*\d).+$" title="La contraseña debe contener al menos una letra mayúscula y un número.">
+                </div>
+                <div class="mb-3">
+                    <input type="date" class="form-control" placeholder="Fecha de Nacimiento (dd/mm/aaaa)" required id="fechanacimiento" name="fechaNacimiento">
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" name="pais" id="pais">
+                        <option value="">País</option>
+                        <option value="AR">Argentina</option>
+                        <option value="BO">Bolivia</option>
+                        <option value="BR">Brasil</option>
+                        <option value="CH">Chile</option>
+                        <option value="CO">Colombia</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="PY">Paraguay</option>
+                        <option value="PE">Perú</option>
+                        <option value="UY">Uruguay</option>
+                        <option value="VE">Venezuela</option>
+                    </select>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="terminos">
+                    <label class="form-check-label" for="terminos">Acepto términos y condiciones</label>
+                </div>
+                <div class="mb-3 text-center">
+                    <input type="submit" value="Registrarse" class="btn btn-primary">
+                </div>
+                <div class="text-center">
+                    <a href="#">Necesitas ayuda?</a>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
