@@ -1,0 +1,19 @@
+@import "variables.css";
+/*Registro*/
+.boton-regresar {
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton-regresar:hover {
+  background-color: var(--fifth);
+}
+body {
+  background-image: url(img/fondococina.jpg);
+  background-size: cover;
+}
