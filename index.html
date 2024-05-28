@@ -86,8 +86,13 @@
         <h2 class="tituloSection">Explora el Mundo de las Recetas!</h2>
         <div class="buscador-recetas">
           <div class="search-input-box">
-            <input type="text" id="input" placeholder="¿Que quieres buscar?" />
-            <a href="#">
+            <input
+              type="text"
+              id="input"
+              placeholder="¿Que quieres buscar?"
+              onkeydown="handleKeyDown(event)"
+            />
+            <a href="#resultados" onclick="buscarRecetas()">
               <i class="fa-solid fa-magnifying-glass icon"></i>
             </a>
             <ul class="conteiner-suggestions">
@@ -281,6 +286,7 @@
           </div>
         </div>
       </section>
+      <div id="resultados"></div>
     </main>
     <footer class="bg-dark text-white p-4">
       <div class="container">
@@ -307,5 +313,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="fetchRecetas.js"></script>
   </body>
 </html>
