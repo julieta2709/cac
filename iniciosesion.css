@@ -90,3 +90,7 @@ h2 {
     text-decoration: underline;
     color: blue;
 }
+
+.invalidColor {
+    color: red;
+}
