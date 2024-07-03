@@ -31,6 +31,8 @@ async function buscarRecetas() {
 }
 
 function mostrarResultados(recetas) {
+  const showReultados = document.getElementById('resultados').style.display = 'block';
+  console.log(showReultados)
   const resultadosDiv = document.getElementById("resultadosCard");
   resultadosDiv.innerHTML = "";
 
