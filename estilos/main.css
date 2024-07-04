@@ -7,6 +7,7 @@
   font-size: 48px;
   text-align: center;
   color: var(--fourth);
+  padding: 10px 3px;
 }
 #resultados.Recetas {
   background-color: rgb(210, 210, 210);
@@ -53,10 +54,13 @@
 .fondo-boton:focus {
   color: var(--secondary);
 }
-.alinear-footer {
+footer {
+  text-align: center;
+}
+/* .alinear-footer {
   text-align: center;
   padding: 5px;
-}
+} */
 .logo {
   width: 70px;
 }
@@ -68,13 +72,14 @@
 .Buscador {
   background-color: #414b57;
   height: 12rem;
+  margin-bottom: 1rem;
 }
 .Buscador .tituloSection {
   color: var(--fifth);
 }
 .buscador-recetas {
   max-width: 700px;
-  margin: 30px auto;
+  margin: 10px auto;
 }
 .search-input-box {
   width: 100%;
@@ -127,7 +132,21 @@
   background: gray;
 }
 /*Section Recetas*/
-.container {
+.Recetas .container {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-lg-4 {
+  display: flex;
   justify-content: center;
   margin-bottom: 1rem;
 }
@@ -164,4 +183,44 @@
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
+}
+/*Form Carga Receta*/
+.formCargaReceta {
+  padding-bottom: 10px;
+}
+#formNuevaReceta.row {
+  display: flex;
+  flex-direction: column;
+}
+.row-cols-lg-auto .col-12 {
+  width: 70%;;
+}
+.cargaRecetaText {
+  text-align: center;
+  font-family: "Amatic SC";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.form-control {
+  width: 100%;
+}
+#detalle.form-control {
+  height: 30vh;
+}
+#btnSubmitReceta.col-12 {
+  display: flex;
+  justify-content: center;
+}
+/*medias query*/
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row-cols-lg-auto .col-12 {
+    width: 100%;;
+  }
+  #detalle.form-control {
+    height: 15vh;
+  }
 }

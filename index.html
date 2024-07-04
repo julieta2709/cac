@@ -82,7 +82,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link fondo-boton" href="./pages/formCarga.html"
+              <a class="nav-link fondo-boton" href="#cargaReceta"
                 >Cargar Receta</a
               >
             </li>
@@ -302,54 +302,63 @@
         </div>
       </section>
       <section id="cargaReceta" class="formCargaReceta">
-        <h3 class="tituloSection">
-          Completa el formulario para compartirnos tu receta
-        </h3>
-        <p>
-          Aquí podrás compartirnos tu receta, completa el formulario para
-          publicarla
+        <h3 class="tituloSection">¡Compartirnos tu receta!</h3>
+        <p class="cargaRecetaText">
+          Completa el formulario para publicar tu receta
         </p>
-        <form
-          id="formNuevaReceta"
-          action=""
-          method="post"
-          enctype="multipart/form-data"
-          class="row row-cols-lg-auto g-3 align-items-center"
-        >
-          <div class="col-12 col-md-6">
-            <label for="titulo">Titulo</label>
-            <input class="form-control" type="text" name="titulo" id="titulo" />
-          </div>
-          <div class="col-12 col-md-8">
-            <label for="imagen">Imagen</label>
-            <input class="form-control" type="file" name="imagen" id="imagen" />
-          </div>
-          <div class="col-6 col-md-4">
-            <label for="detalle">Detalle</label>
-            <input
-              class="form-control"
-              type="text"
-              name="detalle"
-              id="detalle"
-            />
-          </div>
-          <div class="col-6 col-md-2">
-            <label for="duracion">Duración</label>
-            <input
-              class="form-control"
-              type="text"
-              name="duracion"
-              id="duracion"
-            />
-          </div>
-          <div class="col-12">
-            <input
-              class="align-self-center btn btn-success"
-              type="submit"
-              value="Agregar Receta"
-            />
-          </div>
-        </form>
+        <div class="container">
+          <form
+            id="formNuevaReceta"
+            action=""
+            method="post"
+            enctype="multipart/form-data"
+            class="row row-cols-lg-auto g-3 align-items-center"
+          >
+            <div class="col-12 col-md-6">
+              <label for="titulo">Titulo</label>
+              <input
+                class="form-control"
+                type="text"
+                name="titulo"
+                id="titulo"
+              />
+            </div>
+            <div class="col-12 col-md-8">
+              <label for="imagen">Imagen</label>
+              <input
+                class="form-control"
+                type="file"
+                name="imagen"
+                id="imagen"
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="dificultad">Dificultad</label>
+              <input
+                class="form-control"
+                type="text"
+                name="dificultad"
+                id="dificultad"
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="detalle">Detalle</label>
+              <input
+                class="form-control"
+                type="text"
+                name="detalle"
+                id="detalle"
+              />
+            </div>
+            <div class="col-12" id="btnSubmitReceta">
+              <input
+                class="btn btn-success"
+                type="submit"
+                value="Agregar Receta"
+              />
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="bg-dark text-white p-4">
