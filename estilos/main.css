@@ -36,11 +36,34 @@
 .titulo-nav {
   padding-top: 20px;
 }
+.navbar-nav {
+  justify-content: flex-end;
+}
+.navbar > .container {
+  flex-wrap: nowrap;
+}
+.logo-container {
+  display: flex;
+}
 .nav-item {
   margin: 0 10px 0 10px;
 }
 .nav-link {
   color: white;
+}
+.navbar-nav {
+  width: 100%;
+}
+.collapse.show {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.collapse.show .nav-item {
+  margin: 10px;
+}
+.nav-item {
+  text-align: center;
 }
 .fondo-boton {
   color: white;
@@ -193,7 +216,7 @@ footer {
   flex-direction: column;
 }
 .row-cols-lg-auto .col-12 {
-  width: 70%;;
+  width: 70%;
 }
 .cargaRecetaText {
   text-align: center;
@@ -213,12 +236,22 @@ footer {
 }
 /*medias query*/
 @media (max-width: 768px) {
+  .navbar > .container {
+    flex-direction: column;
+  }
+  .buscador-recetas {
+    display: flex;
+    justify-content: center;
+  }
+  .search-input-box {
+    width: 80%;
+  }
   .row {
     flex-direction: column;
     align-items: center;
   }
   .row-cols-lg-auto .col-12 {
-    width: 100%;;
+    width: 100%;
   }
   #detalle.form-control {
     height: 15vh;
