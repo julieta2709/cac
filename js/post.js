@@ -29,8 +29,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       }),
     };
 
-/*     const response = await fetch(
-      "http://localhost:8080/apisimple/peliculas",
+const response = await fetch(
+      "http://localhost:8080/apisimple/recetas",
       options
     );
     const data = await response.json();
@@ -41,6 +41,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       location.reload();
     } else {
       alert("Error al agregar la receta");
-    } */
+    }
   });
 });
